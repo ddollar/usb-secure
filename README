@@ -1,22 +1,7 @@
-These applescripts are provided as-is and with absolutely no warranties. The
-application and application bundle are all editable, and were created with
-Script Editor.
+1. Drop an empty USB volume onto "Secure USB Initialize.app"
+2. Put "Secure USB Handler.scpt" into /Library/Scripts/Folder Action Scripts/
+3. Add Secure USB Handler as a folder action on /Volumes
+4. SetFile -a V /Volumes/USBVolume
 
-
-== Installation: ==
-
-Copy "Automount secure drive Folder Action.scpt" to
-/Library/Scripts/Folder Action Scripts/, and attach it as a folder action to
-/Volumes/
-
-
-== Setup: ==
-
-Insert the memory stick you wish to use, and drag the mounted volume from the
-desktop onto the "Prepare secure drive droplet" application bundle
-
-
-== Restoring: ==
-
-Insert the 'secure' memory stick, select 'cancel' when prompted for the
-password, and run the "Restore secure drive" application.
+5. Drop a secure USB volume onto "Secure USB Restore.app" to revert, you will
+   be prompted to save the secure volume
