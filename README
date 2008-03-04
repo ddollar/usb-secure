@@ -1,0 +1,22 @@
+These applescripts are provided as-is and with absolutely no warranties. The
+application and application bundle are all editable, and were created with
+Script Editor.
+
+
+== Installation: ==
+
+Copy "Automount secure drive Folder Action.scpt" to
+/Library/Scripts/Folder Action Scripts/, and attach it as a folder action to
+/Volumes/
+
+
+== Setup: ==
+
+Insert the memory stick you wish to use, and drag the mounted volume from the
+desktop onto the "Prepare secure drive droplet" application bundle
+
+
+== Restoring: ==
+
+Insert the 'secure' memory stick, select 'cancel' when prompted for the
+password, and run the "Restore secure drive" application.
