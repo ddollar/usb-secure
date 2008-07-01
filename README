@@ -1,3 +1,7 @@
+Most of this code is borrowed from something I found on the interwebs but I
+don't remember the source. If you find your code here, and would like attribution
+or removal, please contact me at ddollar@gmail.com
+
 1. Drop an empty USB volume onto "Secure USB Initialize.app"
 2. Put "Secure USB Handler.scpt" into /Library/Scripts/Folder Action Scripts/
 3. Add Secure USB Handler as a folder action on /Volumes
