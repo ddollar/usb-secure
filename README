@@ -1,6 +1,5 @@
-Most of this code is borrowed from something I found on the interwebs but I
-don't remember the source. If you find your code here, and would like attribution
-or removal, please contact me at ddollar@gmail.com
+Most of this code is borrowed from
+http://www.cneophytou.com/2008/01/30/simulating-encrypted-physical-disk-in-os-x/
 
 1. Drop an empty USB volume onto "Secure USB Initialize.app"
 2. Put "Secure USB Handler.scpt" into /Library/Scripts/Folder Action Scripts/
